@@ -1,4 +1,8 @@
-
+/*
+When given a input of vertice pairs that represent two islands with a ferry inbetween,
+this algorithm computes the minimum number of islands needed to have each island either in the set or connected by a single ferry ride
+A backtracking Implementation.
+*/
 package problemset1;
 
 import java.util.Scanner;
