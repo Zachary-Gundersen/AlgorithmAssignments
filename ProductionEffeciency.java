@@ -1,3 +1,32 @@
+/*
+This is my, Zachary Gundersen's implemntation of a program that takes in a set of lines and finds the most effecient path through them
+This is a Dynamic Programming implementation
+Inputs
+On the first line of console input, your program will receive an integer n, the number of production lines in the range [2..5],
+then an integer s, the number of production steps in the range [1..600].
+The next n lines will provide the step costs for manufacturing line.  Each line will provide s integers in the range [1..100],
+The last line will provide the switching costs for switching between lines. 
+This line will provide s-1 integers (because switching is only possible between steps) in the range [1..30].
+Example, with spaces added to aid readability:
+
+3 5
+18   11    6   30   27
+29    7   24    6    6
+ 8   22    7   23   21
+5 7 6 8
+Your program should not be sensitive to excess spaces (keep it simple), but there will not be excess spaces in the tests.
+
+Output
+Your program should first print out one integer, the minimum time required to produce a processor.
+
+Next, your program should print out s integers that indicate which line should be used for each step. 
+For example, if an optimal solution uses line 2, then line 1, then line 3, your program would print "2 1 3".
+
+Example solution for above inputs:
+
+48
+3 1 1 2 2
+*/
 package programmingset;
 
 import java.util.Scanner;
