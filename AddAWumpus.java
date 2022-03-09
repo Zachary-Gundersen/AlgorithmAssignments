@@ -1,4 +1,24 @@
-
+/*
+* This is my, Zachary Gundersen, program that takes in a maze and finds the minimum amount of treasure(shown by an integer) a player(p) can get when adding one aditional monster(m)
+*Inputs
+*Your program will receive an integer number of rows and columns followed by one string of non-whitespace characters for each row of the maze. 
+*Each string will be on its own line (terminated with a line break).  The maze may be as small as 5x5 or as large as 100x100.
+*Example:
+*7 9
+*#########
+*#.p..3..#
+*#.......#
+*#.####..#
+*#1m#.8..#
+*#9......#
+*#########
+*Output
+*Your program should output three integers (and no other text):  The coordinates of any best location to place a monster (a row followed by a column, 0-based, starting in the upper left), followed by an integer indicating how much treasure the player will collect (when the additional monster is ideally placed). 
+*Example 
+*2 4
+*1
+*
+*/
 package WumpusWorld;
 
 import java.util.ArrayList;
